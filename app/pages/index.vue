@@ -1,10 +1,3 @@
-<template>
-  <div class="flex flex-col justify-center">
-    <HomeHero />
-    <HomeLogos />
-    <HomeFeatures />
-    <HomeStats />
-    <HomeTestimonials />
-    <HomeCta />
-  </div>
-</template>
+<script setup lang="ts">
+navigateTo('/dashboard/links', { redirectCode: 301 })
+</script>
